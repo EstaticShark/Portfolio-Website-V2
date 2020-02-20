@@ -1,0 +1,29 @@
+#WordSlots-container {
+    height: 100%;
+    width: 100%;
+
+    display: inline-block;
+
+    min-width: 250px;
+
+    
+}
+
+#Intro-header-text {
+    font-size: 24pt;
+
+    margin: 2.5%;
+
+    float: left;
+
+    animation-duration: 3000ms;
+    animation-delay: 500ms;
+}
+
+#Intro-header-slots {
+    font-size: 24pt;
+
+    margin: 2.5%;
+
+    text-decoration: underline;
+}

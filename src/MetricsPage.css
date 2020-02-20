@@ -1,0 +1,27 @@
+#Metrics-container {
+    height: 100vh;
+    background-color: black;
+}
+
+#Metrics-content {
+    position: relative;
+
+    height: 80%;
+    margin: 10%;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+#Temp-text {
+    vertical-align: middle;
+    color: white;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 20%;
+    margin: auto;
+}

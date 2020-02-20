@@ -1,0 +1,95 @@
+#Home-container {
+    height: 100vh;
+    background-color: white;
+}
+
+/*Intro-header will contain the video gradient*/
+#Intro-header {
+    position: relative;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.7);
+
+    overflow: hidden;
+}
+
+/*The video*/
+#Intro-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: auto;
+    width: 100%;
+
+    z-index: 0;
+}
+
+/*The gradient on the video, this should end right at the end at the video*/
+#Intro-gradient-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 1));
+
+    z-index: 1;
+}
+
+/*The gradient on the video, this is a left to right gradient*/
+#Intro-gradient-container-side {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+
+    z-index: 2;
+}
+
+#Intro-header-content {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: 2;
+
+    color: white;
+
+    display: block;
+}
+
+#Intro-header-title {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+
+    height: 150px;
+    width: 80%;
+    padding: 5px;
+
+    text-align: left;
+
+    z-index: 2;
+
+    color: white;
+
+    display: block;
+}
+
+#Intro-content {
+    height: 100vh;
+    background: #000000;
+}
+
