@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 
-import './ProjectsPage.css';
+import './ProjectNode.css';
 
-class ProjectsPage extends Component{
+
+class ProjectsNode extends Component{
   constructor(props) {
     super(props);
 
     //State initilization
     this.state = {
-        
+
     };
 
     //Binding functions
@@ -17,11 +18,11 @@ class ProjectsPage extends Component{
   
   render() {
     return (
-        <div id="Projects-container" className="#projects">
+        <div id="Node-container">
 
         </div>
     );
   }
 }
 
-export default ProjectsPage;
+export default ProjectsNode;

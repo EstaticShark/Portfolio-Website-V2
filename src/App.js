@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SideBar from './Sidebar.js'
 import HomePage from './HomePage.js'
+import ProjectsPage from './ProjectsPage.js'
 
 import './App.css';
 import './Sidebar.css';
@@ -30,9 +31,7 @@ class App extends Component{
         <div className="App-content">
           <HomePage/>
 
-          <div className="#projects">
-
-          </div>
+          <ProjectsPage/>
           
           <div className="#metrics">
               <div id="Metrics-container">
