@@ -4,7 +4,6 @@ import introImage from '../src/assets/Intro-image-1.jpg'
 
 import './HomePage.css';
 
-import {animated, fadeInUp} from './animate.css'
 import WordSlots from './WordSlots';
 
 class HomePage extends Component{

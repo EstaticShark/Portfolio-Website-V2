@@ -1,0 +1,15 @@
+#Projects-container {
+    background-color: black;
+    height: 100vh;
+}
+
+#Projects-header {
+    color: white;
+
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+#Node-container {
+   margin: 5%;
+}
