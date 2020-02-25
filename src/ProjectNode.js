@@ -13,22 +13,23 @@ class ProjectsNode extends Component{
       title: this.props.title,
       time: this.props.time,
       content: this.props.content,
-      images: this.props.images,
-      backdrop: this.props.backdrop,
+      images: this.props.images,/*
+      backdrop: this.props.backdrop,*/
 
       isOpen: false
     };
 
     //Binding functions
-    this.toggleNode = this.toggleNode.bind(this);
+    //this.toggleNode = this.toggleNode.bind(this);
   }
-  
+  /*
   toggleNode () {
     this.setState({isOpen : !this.state.isOpen });
     console.log("Node was toggled");
-  }
+  }/*
   
   render() {
+    /*
     const styles = {
       nodeCollapsed: {
         backgroundImage: `url(${images[this.state.backdrop]})`
@@ -48,11 +49,12 @@ class ProjectsNode extends Component{
             </div>
             :
             <div style={styles.nodeCollapsed} id="Node-collapsed">
-              
+              <span id="Node-collapsed-title">{this.state.title}</span>
             </div>
           }
         </div>
     );
+    */
   }
 }
 

@@ -33,7 +33,7 @@ class ProjectsPage extends Component{
                       + " where I worked on connecting the iPad front end with the OCR program using Google"
                       + " Cloud Services and maintained the Firebase DB that contained the LaTeX."}
               images={[0, 1]}
-              backdrop={0}
+              backdrop={2}
             />
           </div>
         </div>
