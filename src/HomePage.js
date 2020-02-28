@@ -30,6 +30,9 @@ class HomePage extends Component{
                 <div id="Intro-gradient-container-side"/>
 
                 <div id="Intro-header-content">
+                  <img  src="https://avatarfiles.alphacoders.com/161/thumb-161188.png" alt="Blue"
+                        id="Profile-picture-home"
+                        className="img-fluid rounded-circle"/>
                   <div id="Intro-header-title">
                     <WordSlots/>
                   </div>

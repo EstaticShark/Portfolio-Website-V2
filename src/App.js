@@ -43,6 +43,10 @@ class App extends Component{
               </div>
           </div>
         </div>
+        
+        <div id="Dev-content">
+          <p id="Dev-content-text">Work in progress, mobile version not available yet</p>
+        </div>
       </div>
     );
   }

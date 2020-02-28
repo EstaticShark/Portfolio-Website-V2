@@ -14,29 +14,6 @@
     z-index: 0;
 }
 
-#Node-expanded {
-
-    overflow: hidden;
-
-    z-index: 1;
-}
-
-#Node-collapsed {
-    height: 100%;
-    width: auto;
-
-    overflow: hidden;
-
-    z-index: 1;
-
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-
-    color: white;
-    font-size: 24pt;
-    font-weight: 600;
-}
-
 #Node-collapsed-title {
     margin: 10px;
 }

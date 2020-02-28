@@ -13,48 +13,17 @@ class ProjectsNode extends Component{
       title: this.props.title,
       time: this.props.time,
       content: this.props.content,
-      images: this.props.images,/*
-      backdrop: this.props.backdrop,*/
-
+      images: this.props.images,
       isOpen: false
     };
-
-    //Binding functions
-    //this.toggleNode = this.toggleNode.bind(this);
   }
-  /*
-  toggleNode () {
-    this.setState({isOpen : !this.state.isOpen });
-    console.log("Node was toggled");
-  }/*
-  
-  render() {
-    /*
-    const styles = {
-      nodeCollapsed: {
-        backgroundImage: `url(${images[this.state.backdrop]})`
-      }
-      ,
-      nodeExpanded: {
-        backgroundImage: images[this.state.backdrop] 
-      }
-    }
 
+  render () {
     return (
-        <div onClick={this.toggleNode} id="Node-item">
-          {
-            this.state.isOpen ?
-            <div style={styles.nodeExpanded} id="Node-expanded">
-              
-            </div>
-            :
-            <div style={styles.nodeCollapsed} id="Node-collapsed">
-              <span id="Node-collapsed-title">{this.state.title}</span>
-            </div>
-          }
-        </div>
-    );
-    */
+      <div id="Node-item">
+        <p>Testing</p>
+      </div>
+    )
   }
 }
 

@@ -1,5 +1,12 @@
 .App {
+  display: inline;
+
   text-align: center;
+
+  overflow: hidden;
+
+  height: auto;
+  width: 100%;
 }
 
 .App-logo {
@@ -9,9 +16,44 @@
 
 .App-content {
   background-color: #ffffff;
-  position: absolute;
-  left: 25%;
+  
+  float: right;
+
+  height: auto;
   width: 75%;
-  height: 4000px;
+
   margin: 0;
+  
+  z-index: 1;
+
+  overflow: hidden;
+}
+
+#Dev-content {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  height: 30px;
+  width: auto;
+
+  margin: 0 40% 0 40%;
+
+  background-color: #ffffff;
+
+  color: #FF0000;
+
+  border: 4px solid #FF0000;
+
+  z-index: 10000;
+
+  clear: both;
+}
+
+#Dev-content-text {
+  background-color: #597478;
+
+  color: #FF0000;
+
+  padding: 0 10% 5% 10%;
 }
