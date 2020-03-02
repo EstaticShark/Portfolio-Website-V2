@@ -34,12 +34,12 @@
   bottom: 0;
   left: 0;
 
-  height: 30px;
+  height: 60px;
   width: auto;
 
   margin: 0 40% 0 40%;
 
-  background-color: #ffffff;
+  background-color: #597478;
 
   color: #FF0000;
 
@@ -55,5 +55,7 @@
 
   color: #FF0000;
 
-  padding: 0 10% 5% 10%;
+  padding: 1% 10% 10% 10%;
+
+  font-weight: 600;
 }

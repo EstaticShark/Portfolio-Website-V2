@@ -30,9 +30,6 @@ class HomePage extends Component{
                 <div id="Intro-gradient-container-side"/>
 
                 <div id="Intro-header-content">
-                  <img  src="https://avatarfiles.alphacoders.com/161/thumb-161188.png" alt="Blue"
-                        id="Profile-picture-home"
-                        className="img-fluid rounded-circle"/>
                   <div id="Intro-header-title">
                     <WordSlots/>
                   </div>
@@ -40,6 +37,8 @@ class HomePage extends Component{
               </div>
 
               <div id="Intro-content">
+                <h2>About Me</h2>
+
                 <p id="Intro-text">
                   I am currently a second year undergraduate student at the University of Toronto
                   studying to graduate with a specialist in computer science and a major in mathematics. 
