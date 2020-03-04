@@ -29,6 +29,18 @@
     z-index: 0;
 }
 
+/*The main background image*/
+#Intro-header-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: auto;
+    width: 100%;
+
+    z-index: 0;
+  }
+
 /*The gradient on the video, this should end right at the end at the video*/
 #Intro-gradient-container {
     position: absolute;
@@ -38,7 +50,7 @@
     width: 100%;
     height: 100%;
 
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 1));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 1));
 
     z-index: 1;
 }
@@ -52,23 +64,10 @@
     width: 100%;
     height: 100%;
 
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
 
     z-index: 2;
 }
-
-#Profile-picture-home {
-    position: absolute;
-    top: 10%;
-    left: 10%;
-
-    margin: auto;/*10% 30% 10% 30%;*/
-
-    width: auto;
-    height: auto;
-    max-width: 50%;
-    max-height: 50%;
-  }
 
 #Intro-header-content {
     position: absolute;
@@ -87,10 +86,10 @@
 
 #Intro-header-title {
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 10%;
 
-    height: 150px;
+    height: 180px;
     width: 80%;
     padding: 5px;
 
@@ -100,7 +99,41 @@
 
     color: white;
 
-    display: block;
+}
+
+#Intro-header-text {
+    color: black;
+    background-color: white;
+
+    padding: 6px;
+
+    font-size: 1.5em;
+    font-weight: bold;
+
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 5px 5px 0px 0px rgba(0,0,0,1);
+    box-shadow: 5px 5px 0px 0px rgba(0,0,0,1);
+}
+
+#Intro-header-text-small {
+    color: black;
+    background-color: white;
+
+    width: auto;
+
+    padding: 6px 10px 6px 10px;
+    margin: 0.83em 0.83em 0.83em 0.83em;
+
+    font-size: 1.2em;
+    font-weight: 700;
+
+    display: table;
+
+    clear: both;
+
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 5px 5px 0px 0px rgba(0,0,0,1);
+    box-shadow: 5px 5px 0px 0px rgba(0,0,0,1);
 }
 
 #Intro-content {

@@ -25,3 +25,5 @@ yarn.lock
 
 package-lock.json
 package.json
+
+src/assets/testing-image.jpg

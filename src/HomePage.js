@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import backgroundVideo from '../src/assets/home-background.mp4'
 import introImage from '../src/assets/Intro-image-1.jpg'
+import testImage from '../src/assets/testing-image.jpg'
 
 import './HomePage.css';
 
@@ -25,13 +26,15 @@ class HomePage extends Component{
               
               <div id="Intro-header">
 
-                <video id="Intro-animation" src={backgroundVideo} autoPlay loop muted/>
+                {/*<video id="Intro-animation" src={backgroundVideo} autoPlay loop muted/>*/}
+                <img id="Intro-header-image" src={testImage} alt="Cannot be loaded"/>
                 <div id="Intro-gradient-container"/>
                 <div id="Intro-gradient-container-side"/>
 
                 <div id="Intro-header-content">
                   <div id="Intro-header-title">
-                    <WordSlots/>
+                    <h2 id="Intro-header-text">Martin Chak</h2>
+                    <p id="Intro-header-text-small">Computer Science Student and Software Engineer</p>
                   </div>
                 </div>
               </div>
