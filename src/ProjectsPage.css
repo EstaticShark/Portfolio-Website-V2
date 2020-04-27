@@ -1,15 +1,36 @@
 #Projects-container {
+    position: relative;
+
+    margin: 5% 0 5% 0;
+
     background-color: black;
-    height: 100vh;
+    height: auto;
 }
 
 #Projects-header {
+    position: relative;
+
     color: white;
 
     font-size: 24pt;
     font-weight: bold;
+
+    padding: 5%;
 }
 
 #Node-container {
-   margin: 5%;
+    height: auto;
+    width: 90%;
+
+    margin: 2.5% 5% 2.5% 5%;
+}
+
+#test {
+    height: 200%;
+    width: 200%;
+    color: white;
+    font-size: larger;
+    background-color: blue;
+
+    margin: 10%;
 }

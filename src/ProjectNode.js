@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './ProjectNode.css';
-import images from './ProjectImages.js'
+import Carousel from './Carousel.js'
 
 
 class ProjectsNode extends Component{  
@@ -10,18 +10,41 @@ class ProjectsNode extends Component{
 
     //State initilization
     this.state = {
+      id: this.props.id,
       title: this.props.title,
       time: this.props.time,
       content: this.props.content,
-      images: this.props.images,
-      isOpen: false
+      imageIndices: this.props.imageIndices,
+      isOpen: this.props.isOpen
     };
+
+    //Function binding
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick = (id) => {
+    console.log(id);
+    console.log(this.state.isOpen);
+
+    this.setState({isOpen : !this.state.isOpen});
   }
 
   render () {
     return (
-      <div id="Node-item">
-        <p>Testing</p>
+      <div id="Node-item" onClick= {this.handleClick}>
+        { this.state.isOpen ?
+          <div id="Node-expanded">
+            <span id="Underline">{"-\t" + this.state.title}</span>
+            <div id="Node-expanded-content">
+              {this.state.content}
+              <Carousel imageIndices={this.state.imageIndices}/>
+            </div>
+          </div>
+          :
+          <div id="Node-collapsed">
+            <span id="Underline">{"+\t" + this.state.title}</span>
+          </div>
+        }
       </div>
     )
   }

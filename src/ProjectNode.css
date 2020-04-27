@@ -1,19 +1,90 @@
 #Node-item {
+    height: auto;
     width: 80%;
-    height: 100%;
 
-    margin: 0 10% 0 10%;
+    margin: 2% 4% 2% 4%;
 
-    background-color: /*rgb(0,0,0,0)*/#7289DA;
+    background-color: /*rgb(0,0,0,0)*/#ffffff;
 
-    border: 2px solid #ffffff;
+    border: 0px solid /*#ffffff*/#000000;
     border-radius: 10px;
 
     overflow: hidden;
+    display: inline-block;
 
     z-index: 0;
 }
 
-#Node-collapsed-title {
-    margin: 10px;
+#Node-collapsed{
+    position: relative;
+
+    height: auto;
+    width: 100%;
+
+    margin: 5px 5px 5px 5px;
+
+    font-size: 22pt;
+    font-weight: 375;
+
+    color: #000000;
+
+    text-align: start;
+}
+
+#Node-expanded {
+    margin: 5px 5px 5px 5px;
+
+    font-size: 22pt;
+    font-weight: 375;
+
+    background-color: #ffffff;
+
+    text-align: start;
+}
+
+#Node-expanded-content {
+    margin: 5%;
+
+    font-size: 16pt;
+    font-weight: 375;
+}
+
+#Underline {
+    border-bottom: 1px solid #000000;
+    width: 90%;
+    margin: 2.5%;
+    padding: 1pt;
+    display: block;
+
+    line-height: 35px;
+}
+
+#Carousel {
+    height: auto;
+    width: 100%;
+    margin: 5% 0 5% 0;
+}
+
+#Slide-image {
+    height: 100%;
+    width: 80%;
+    margin: 0 5% 0 5%;
+}
+
+.Left-arrow {
+    width: 5%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: left;
+    margin: 0 0 0 0;
+    background-color: rgba(232, 232, 232, 1.0);
+}
+
+.Right-arrow {
+    width: 5%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: right;
+    margin: 0 0 0 0;
+    background-color: rgba(232, 232, 232, 1.0);
 }

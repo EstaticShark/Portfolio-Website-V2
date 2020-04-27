@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
-import backgroundVideo from '../src/assets/home-background.mp4'
 import introImage from '../src/assets/Intro-image-1.jpg'
-import testImage from '../src/assets/testing-image.jpg'
+import testImage from '../src/assets/home-background.jpg'
 
 import './HomePage.css';
-
-import WordSlots from './WordSlots';
 
 class HomePage extends Component{
   constructor(props) {
