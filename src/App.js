@@ -33,19 +33,17 @@ class App extends Component{
 
           <ProjectsPage/>
           
-          <div className="#metrics">
-              <div id="Metrics-container">
-                <div id="Metrics-content">
-                  <h2 id="Temp-text">
-                    Metrics Coming Soon
-                  </h2>
-                </div>
-              </div>
+          <div id="Metrics-container" className="#metrics">
+            <div id="Metrics-content">
+              <h2 id="Temp-text">
+                Metrics Coming Soon
+              </h2>
+            </div>
           </div>
         </div>
         
         <div id="Dev-content">
-          <p id="Dev-content-text">Work in progress, mobile version not available yet</p>
+          <p id="Dev-content-text">Work in progress, mobile version unavailable</p>
         </div>
       </div>
     );

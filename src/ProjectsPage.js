@@ -16,9 +16,10 @@ class ProjectsPage extends Component{
                 id={0}
                 title={"LoL Info Bot"}
                 time={"August 2019"}
+                link={"https://github.com/EstaticShark/LoLInfoBot"}
                 content={"I made a Discord bot that allowed users to search up players in the popular"
-                        + "online MOBA, League of Legends. It could search up players by region and return"
-                        + "information such as playtime, favourite champions and rank."}
+                        + " online MOBA, League of Legends. It could search up players by region and return"
+                        + " information such as playtime, favourite champions and rank."}
                 imageIndices={[0, 1]}
                 isOpen={false}
               />,
@@ -26,6 +27,7 @@ class ProjectsPage extends Component{
                 id={1}
                 title={"Stem Notes"}
                 time={"January 2020"}
+                link={"https://github.com/EstaticShark/LoLInfoBot"}
                 content={"Created an iPad compatible notes application with team mates at UofT Hacks 2020."
                         + " Application would take drawn equations and text from a notes application and"
                         + " use OCR to convert notes to LaTeX documents. I was responsible for the backend,"
@@ -38,8 +40,11 @@ class ProjectsPage extends Component{
                 id={2}
                 title={"Portfolio Website"}
                 time={"May 2019 - Present"}
-                content={"Celine eats hot chip"}
-                imageIndices={[0, 1]}
+                link={"https://github.com/EstaticShark/LoLInfoBot"}
+                content={"A set of portfolio websites I have developed for the sake of job applications,"
+                        + " front-end practice and for showing off. I am currently at the second iteration"
+                        + " of my site, and I have it all done in React."}
+                imageIndices={[4]}
                 isOpen={false}
               />
       ],

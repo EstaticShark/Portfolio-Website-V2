@@ -5,10 +5,14 @@
 
   overflow: hidden;
 
-  height: auto;
+  height: 100%;
   width: 100%;
 
-  background-color: black;
+  background-color: #94D7F5;
+}
+
+#root {
+  background-color: #94D7F5;
 }
 
 .App-logo {
@@ -17,8 +21,6 @@
 }
 
 .App-content {
-  background-color: #ffffff;
-  
   float: right;
 
   height: auto;
@@ -29,6 +31,8 @@
   z-index: 1;
 
   overflow: hidden;
+
+  font-family: "Raleway";
 }
 
 #Dev-content {
@@ -36,12 +40,10 @@
   bottom: 0;
   left: 0;
 
-  height: 60px;
+  height: 90px;
   width: auto;
 
   margin: 0 40% 0 40%;
-
-  background-color: #465A5D;
 
   color: #FF0000;
 
@@ -53,11 +55,13 @@
 }
 
 #Dev-content-text {
-  background-color: #597478;
+  background-color: #3A3A3A;
 
   color: #FF0000;
 
   padding: 1% 10% 10% 10%;
 
-  font-weight: 600;
+  font-weight: 300;
+
+  font-family: "Montserrat";
 }

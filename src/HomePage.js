@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import introImage from '../src/assets/Intro-image-1.jpg'
-import testImage from '../src/assets/home-background.jpg'
+import homeBackground from '../src/assets/home-background.jpg'
 
 import './HomePage.css';
+
+import WordSlots from './WordSlots';
 
 class HomePage extends Component{
   constructor(props) {
@@ -22,11 +24,8 @@ class HomePage extends Component{
         <div id="Home-container" className="#home">
               
               <div id="Intro-header">
-
-                {/*<video id="Intro-animation" src={backgroundVideo} autoPlay loop muted/>*/}
-                <img id="Intro-header-image" src={testImage} alt="Cannot be loaded"/>
+                <img id="Intro-header-image" src={homeBackground} alt="Cannot be loaded"/>
                 <div id="Intro-gradient-container"/>
-                <div id="Intro-gradient-container-side"/>
 
                 <div id="Intro-header-content">
                   <div id="Intro-header-title">
@@ -40,7 +39,7 @@ class HomePage extends Component{
                 <h2>About Me</h2>
 
                 <p id="Intro-text">
-                  I am currently a second year undergraduate student at the University of Toronto
+                  I am currently a third year undergraduate student at the University of Toronto
                   studying to graduate with a specialist in computer science and a major in mathematics. 
                   My goal is to become a full-stack developer.
                   <br/><br/>

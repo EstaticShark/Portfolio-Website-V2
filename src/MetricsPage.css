@@ -1,26 +1,20 @@
 #Metrics-container {
-    height: 100vh;
-    background-color: black;
+    position: relative;
+    
+    height: auto;
 }
 
 #Metrics-content {
-    position: relative;
-
-    height: 80%;
+    height: auto;
+    width: 80%;
     margin: 10%;
-    border: 1px solid white;
-    border-radius: 10%;
+    border: 1px solid black;
 }
 
 #Temp-text {
     vertical-align: middle;
-    color: white;
+    color: black;
 
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     width: 50%;
     height: 20%;
     margin: auto;

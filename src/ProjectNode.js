@@ -13,6 +13,7 @@ class ProjectsNode extends Component{
       id: this.props.id,
       title: this.props.title,
       time: this.props.time,
+      link: this.props.link,
       content: this.props.content,
       imageIndices: this.props.imageIndices,
       isOpen: this.props.isOpen
@@ -34,15 +35,15 @@ class ProjectsNode extends Component{
       <div id="Node-item" onClick= {this.handleClick}>
         { this.state.isOpen ?
           <div id="Node-expanded">
-            <span id="Underline">{"-\t" + this.state.title}</span>
+            <span id="Underline">{"-\t" + this.state.title + " (" + this.state.time + ")"}</span>
             <div id="Node-expanded-content">
-              {this.state.content}
+              {this.state.content} <a href={this.state.link}>Github link.</a>
               <Carousel imageIndices={this.state.imageIndices}/>
             </div>
           </div>
           :
           <div id="Node-collapsed">
-            <span id="Underline">{"+\t" + this.state.title}</span>
+            <span id="Underline">{"+\t" + this.state.title + " (" + this.state.time + ")"}</span>
           </div>
         }
       </div>

@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import { FaGithub, FaLinkedin, FaFacebook} from 'react-icons/fa';
 import { IoMdMail } from 'react-icons/io'
 import Sidebar from "react-sidebar";
-
 import './Sidebar.css';
+import profileImage from '../src/assets/profile-image.png'
+import Scroll from "react-scroll";
+const ScrollLink = Scroll.Link;
 
 class SideBar extends Component{
   constructor(props) {
@@ -15,9 +17,9 @@ class SideBar extends Component{
     };
 
     //Binding functions
-
+    
   }
-  
+
   render() {
     return (
         <div id="App-side-bar-container">
@@ -33,7 +35,7 @@ class SideBar extends Component{
             sidebar={
               <div id="Side-bar-content">
                 <header className="">
-                  <img  src="https://avatarfiles.alphacoders.com/161/thumb-161188.png" alt="Blue"
+                  <img  src={profileImage/*"https://avatarfiles.alphacoders.com/161/thumb-161188.png"*/} alt="Blue"
                         id="Profile-picture"
                         className="img-fluid rounded-circle"/>
                   
@@ -45,7 +47,7 @@ class SideBar extends Component{
                 <div className="d-flex flex-column align-items-center my-3 mx-4 Side-bar-cards-container">
                   
                   <div id="Side-bar-nav">
-
+                      {/*
                       <form className="Side-bar-nav-link">
                         <button className="Side-bar-nav-submit" type="submit" formAction="#home">Home</button>
                       </form>
@@ -57,6 +59,43 @@ class SideBar extends Component{
                       <form className="Side-bar-nav-link">
                         <button className="Side-bar-nav-submit" type="submit" formAction="#metrics">Metrics</button>
                       </form>
+                      */}
+
+                      <div className="Side-bar-nav-link">
+                        <ScrollLink 
+                          to="#home"
+                          spy={true} 
+                          smooth={true} 
+                          duration={500} 
+                          className="Side-bar-nav-submit"
+                        >
+                          Home  
+                        </ScrollLink>
+                      </div>
+                      
+                      <div className="Side-bar-nav-link">
+                        <ScrollLink 
+                          to="#projects"
+                          spy={true} 
+                          smooth={true} 
+                          duration={500} 
+                          className="Side-bar-nav-submit"
+                        >
+                          Projects  
+                        </ScrollLink>
+                      </div>
+
+                      <div className="Side-bar-nav-link">
+                        <ScrollLink 
+                          to="#metrics"
+                          spy={true} 
+                          smooth={true} 
+                          duration={500} 
+                          className="Side-bar-nav-submit"
+                        >
+                          Metrics  
+                        </ScrollLink>
+                      </div>
                     
                   </div>
 

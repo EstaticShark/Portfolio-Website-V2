@@ -14,12 +14,14 @@
 
   .Side-bar {
     position: relative;
-    background-color: #93CFE1/*#738adb*/;
+    background-color: #F8E7AA/*#738adb*/;
     width: 100%;
     height: 100%;
     max-width: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
+
+    font-family: "Montserrat";
   }
   
   #Side-bar-content {
@@ -61,20 +63,21 @@
   .Side-bar-nav-link {
     margin: -0.1em auto auto auto;
     min-width: 72px;
+
+    /*Border*/
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #F8E7AA, rgba(0, 0, 0, 0.8),#F8E7AA) 1 10%;/*linear-gradient(to right, #738adb, rgba(0, 0, 0, 0.8),#738adb) 1 10%;*/
+    border-left: none;
+    border-right: none;
   }
   
   
   .Side-bar-nav-submit {
-    background-color: #93CFE1/*#738adb*/;
+    background-color: #F8E7AA/*#738adb*/;
     width: 100%;
-    /*padding: 5%;*/
-  
-    /*Border*/
-    border-width: 1px;
-    border-style: solid;
-    border-image: linear-gradient(to right, #93CFE1, rgba(0, 0, 0, 0.8),#93CFE1) 1 10%;/*linear-gradient(to right, #738adb, rgba(0, 0, 0, 0.8),#738adb) 1 10%;*/
-    border-left: none;
-    border-right: none;
+
+    display: block;
 
     /*Text*/
     font-size: 14pt;
@@ -94,7 +97,7 @@
     font-size: 10pt;
     display: inline-block;
     margin: auto auto auto auto;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
   }
   
