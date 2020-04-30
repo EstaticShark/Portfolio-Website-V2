@@ -11,7 +11,7 @@
   background-color: #94D7F5;
 }
 
-#root {
+.root {
   background-color: #94D7F5;
 }
 
@@ -38,12 +38,11 @@
 #Dev-content {
   position: fixed;
   bottom: 0;
-  left: 0;
+  right: 10px;
 
-  height: 90px;
-  width: auto;
+  height: 75px;
+  width: 350px;
 
-  margin: 0 40% 0 40%;
 
   color: #FF0000;
 
@@ -59,7 +58,7 @@
 
   color: #FF0000;
 
-  padding: 1% 10% 10% 10%;
+  padding: 5% 5% 5% 5%;
 
   font-weight: 300;
 

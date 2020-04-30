@@ -36,7 +36,7 @@ class HomePage extends Component{
               </div>
 
               <div id="Intro-content">
-                <h2>About Me</h2>
+                <h2 id="Intro-content-title">About Me</h2>
 
                 <p id="Intro-text">
                   I am currently a third year undergraduate student at the University of Toronto
