@@ -51,7 +51,7 @@ class HomePage extends Component{
                   such as AWS, Google Cloud Services, etc.
                   <br/><br/>
                   I am looking for 2020 summer internships at the moment, if you're interested you
-                  can look at my <a href="https://github.com/EstaticShark">resume.</a>
+                  can look at my <a href="https://drive.google.com/open?id=1stbWlfTAVCdx1MCJwrVb7PcRH38nwYNw">resume.</a>
                 </p>
                 <img id="Intro-picture" src={introImage} alt="Cannot be loaded"/>
               </div>
