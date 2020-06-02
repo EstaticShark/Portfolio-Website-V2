@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import introImage from '../src/assets/Intro-image-1.jpg'
-import homeBackground from '../src/assets/home-background.jpg'
+import hearts from '../src/assets/heart-container.png'
+import island from '../src/assets/island-color-temp.png'
+import { FaFlask } from 'react-icons/fa'
+import { IconContext } from "react-icons";
 
 import './HomePage.css';
 
@@ -22,16 +25,16 @@ class HomePage extends Component{
   render() {
     return (
         <div id="Home-container" className="#home">
-              
               <div id="Intro-header">
-                <img id="Intro-header-image" src={homeBackground} alt="Cannot be loaded"/>
-                <div id="Intro-gradient-container"/>
-
-                <div id="Intro-header-content">
-                  <div id="Intro-header-title">
-                    <h2 id="Intro-header-text">Martin Chak</h2>
-                    <p id="Intro-header-text-small">Computer Science Student and Software Engineer</p>
-                  </div>
+                <div id="Intro-header-title">
+                  <span id="Intro-header-name">Martin Chak</span>
+                  <img src={hearts} id="heart-container"/>
+                  <span class="Intro-header-subtext">
+                    3rd Year Computer Science Student<br/>
+                    University of Toronto, St. George Campus<br/>
+                    Toronto, ON
+                  </span>
+                  <img src={island} id="Island-icon"/>
                 </div>
               </div>
 

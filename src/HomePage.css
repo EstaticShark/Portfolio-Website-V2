@@ -14,11 +14,10 @@
     left: 0;
 
     width: 100%;
-    height: 100vh;
-
-    /*background-color: #94F5F5;*/
+    height: 80vh;
 
     overflow: hidden;
+    background-color: #FFFEE4;
 }
 
 /*The main background image*/
@@ -33,7 +32,7 @@
     z-index: 0;
   }
 
-/*The gradient on the video, this should end right at the end at the video*/
+/*Deprecated
 #Intro-gradient-container {
     position: absolute;
     top: 0;
@@ -44,70 +43,51 @@
 
     background: linear-gradient(to bottom, rgba(148, 215, 245, 0), rgba(148, 215, 245, 0.98), rgba(148, 215, 245, 1));
 }
-
-#Intro-header-content {
-    position: absolute;
-
-    width: 100%;
-    height: 100%;
-
-    color: white;
-
-    display: block;
-
-    font-weight: bold;
-}
+*/
 
 #Intro-header-title {
     position: absolute;
     top: 20%;
     left: 10%;
-
     height: 180px;
     width: 80%;
-    padding: 5px;
-
     text-align: left;
+}
 
-    color: white;
+#Intro-header-name {
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: black;
+    font-size: 26pt;
+    padding: 6px;
+}
+
+#heart-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 30%;
+    height: auto;
+    padding: 12px;
+}
+
+.Intro-header-subtext {
+    position: absolute;
+    top: 30px;
+    left: 0;
 
     font-family: "Montserrat";
     font-weight: 600;
+    color: black;
+    font-size: 11pt;
+    text-align: left;
+
+    padding: 12px 12px 12px 6px;
 }
 
-#Intro-header-text {
-    color: white;
-    background-color: black;
-
-    padding: 6px;
-
-    font-size: 1.5em;
-    font-weight: bold;
-
-    -webkit-box-shadow: 5px 5px 0px 0px rgba(255,255,255,1);
-    -moz-box-shadow: 5px 5px 0px 0px rgba(255,255,255,1);
-    box-shadow: 5px 5px 0px 0px rgba(255,255,255,1);
-}
-
-#Intro-header-text-small {
-    color: white;
-    background-color: black;
-
-    width: auto;
-
-    padding: 6px 10px 6px 10px;
-    margin: 0.83em 0.83em 0.83em 0.83em;
-
-    font-size: 1.2em;
-    font-weight: 700;
-
-    display: table;
-
-    clear: both;
-
-    -webkit-box-shadow: 5px 5px 0px 0px rgba(255,255,255,1);
-    -moz-box-shadow: 5px 5px 0px 0px rgba(255,255,255,1);
-    box-shadow: 5px 5px 0px 0px rgba(255,255,255,1);
+#Island-icon{
+    
 }
 
 /*BEGIN NON-HEADER CONTENT*/

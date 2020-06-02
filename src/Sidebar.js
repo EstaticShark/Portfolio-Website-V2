@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { FaGithub, FaLinkedin, FaFacebook} from 'react-icons/fa';
+import { IconContext } from "react-icons";
 import { IoMdMail } from 'react-icons/io'
 import Sidebar from "react-sidebar";
 import './Sidebar.css';
@@ -102,33 +103,49 @@ class SideBar extends Component{
                   <div id="Side-bar-contacts">
                     <div className="card-body Side-bar-card-line">
                       <a className="Side-bar-card-link" href="mailto:martinchakchak@yahoo.ca">
-                        <IoMdMail className="Side-bar-card-icon"/>
-                        <br/>
-                        <p className="Side-bar-card-text email-text">martinchakchak@yahoo.ca</p>
+                        <IconContext.Provider
+                          value={{ color: '#FFFEE4'}}
+                        >
+                          <IoMdMail className="Side-bar-card-icon"/>
+                          <br/>
+                          <p className="Side-bar-card-text email-text">martinchakchak@yahoo.ca</p>
+                        </IconContext.Provider>
                       </a>
                     </div>
 
                     <div className="card-body Side-bar-card-line">
                       <a className="Side-bar-card-link" href="https://github.com/EstaticShark">
-                        <FaGithub className="Side-bar-card-icon"/> 
-                        <br/>
-                        <p className="Side-bar-card-text">Github</p>
+                        <IconContext.Provider
+                          value={{ color: '#FFFEE4'}}
+                        >
+                          <FaGithub className="Side-bar-card-icon"/> 
+                          <br/>
+                          <p className="Side-bar-card-text">Github</p>
+                        </IconContext.Provider>
                       </a>
                     </div>
 
                     <div className="card-body Side-bar-card-line">
                       <a className="Side-bar-card-link" href="https://www.linkedin.com/in/martinchak">
+                        <IconContext.Provider
+                          value={{ color: '#FFFEE4'}}
+                        >
                           <FaLinkedin className="Side-bar-card-icon"/>
                           <br/>
                           <p className="Side-bar-card-text">Linkedin</p>
+                        </IconContext.Provider>
                       </a>
                     </div>
 
                     <div className="card-body Side-bar-card-line">
                       <a className="Side-bar-card-link" href="https://www.facebook.com/martin.chak.33">
+                        <IconContext.Provider
+                          value={{ color: '#FFFEE4'}}
+                        >
                           <FaFacebook className="Side-bar-card-icon"/>
                           <br/>
                           <p className="Side-bar-card-text">Facebook</p>
+                        </IconContext.Provider>
                       </a>
                     </div>
                   </div>

@@ -8,11 +8,11 @@
   height: 100%;
   width: 100%;
 
-  background-color: #94D7F5;
+  background-color: /*#FFFEE4*/#94F5F5;
 }
 
 .root {
-  background-color: #94D7F5;
+  background-color: #FFFEE4;
 }
 
 .App-logo {

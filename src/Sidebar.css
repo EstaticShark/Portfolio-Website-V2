@@ -18,7 +18,8 @@
 
   .Side-bar {
     position: relative;
-    background-color: #F8E7AA/*#738adb*/;
+    background-color: black;
+    color:#FFFEE4;
     width: 100%;
     height: 100%;
     max-width: 100%;
@@ -71,14 +72,14 @@
     /*Border*/
     border-width: 1px;
     border-style: solid;
-    border-image: linear-gradient(to right, #F8E7AA, rgba(0, 0, 0, 0.8),#F8E7AA) 1 10%;/*linear-gradient(to right, #738adb, rgba(0, 0, 0, 0.8),#738adb) 1 10%;*/
+    border-image: linear-gradient(to right, black, rgba(0, 0, 0, 0.8), black) 1 10%;
     border-left: none;
     border-right: none;
   }
   
   
   .Side-bar-nav-submit {
-    background-color: #F8E7AA/*#738adb*/;
+    background-color: black;
     width: 100%;
 
     display: block;
@@ -103,6 +104,7 @@
     margin: auto auto auto auto;
     font-weight: 700;
     text-align: center;
+    color: #FFFEE4;
   }
   
   /*Mobile version will be contained here*/

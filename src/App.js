@@ -41,10 +41,11 @@ class App extends Component{
             </div>
           </div>
         </div>
-        
+        {/*
         <div id="Dev-content">
           <p id="Dev-content-text">Work in progress, mobile version unavailable</p>
         </div>
+        */}
       </div>
     );
   }
