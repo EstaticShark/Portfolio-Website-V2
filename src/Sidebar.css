@@ -116,13 +116,7 @@
   #Side-bar-footer {
     position: absolute;
     bottom: 10px;
-    font-size: 10pt;
-  }
-
-  .Side-bar-footer-text {
-    display: inline;
     font-size: 8pt;
-    margin: 0;
   }
   
   /*Mobile version will be contained here*/

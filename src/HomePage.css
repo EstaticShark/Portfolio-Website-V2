@@ -15,8 +15,8 @@
     height: 110vh;
     overflow: hidden;
 
-    /*background-color: #94F5F5*/
-    background: linear-gradient(to bottom, #94F5F5, #94F5F5, #94D7F5);
+    background-color: #FFFEE4
+    /*background: linear-gradient(to bottom, #94F5F5, #94F5F5, #94D7F5);*/
 }
 
 /*Intro-header will contain the video gradient*/
@@ -64,11 +64,25 @@
     text-align: left;
 }
 
-#Intro-header-name {
+#Intro-header-left {
+    position: absolute;
+    top: 0;
+    left: 0;
     font-family: "Montserrat";
     font-weight: 600;
     color: black;
-    font-size: 32pt;
+    font-size: 26pt;
+    padding: 6px;
+}
+
+#Intro-header-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: black;
+    font-size: 26pt;
     padding: 6px;
 }
 
@@ -84,7 +98,7 @@
 
 .Intro-header-subtext-left {
     position: absolute;
-    top: 37px;
+    top: 35px;
     left: 0;
 
     font-family: "Montserrat";
@@ -98,7 +112,7 @@
 
 .Intro-header-subtext-right {
     position: absolute;
-    top: 30px;
+    top: 35px;
     right: 0;
 
     font-family: "Montserrat";
@@ -132,7 +146,7 @@
     color: black;
     padding: 5% 0;
 
-    background: linear-gradient(to bottom, #94D7F5, rgba(147, 208, 241, 0.9), rgba(147, 208, 241, 1));
+    /*background: linear-gradient(to bottom, #94D7F5, rgba(147, 208, 241, 0.9), rgba(147, 208, 241, 1));*/
 }
 
 #Intro-content-title {
@@ -149,7 +163,7 @@
 
     float: right;
 
-    border: 4px solid #94D7F5;
+    border: 4px solid #FFFEE4;
     border-radius: 10%;
 }
 

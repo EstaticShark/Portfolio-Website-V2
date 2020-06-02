@@ -8,7 +8,7 @@
   height: 100%;
   width: 100%;
 
-  background-color: rgba(147, 208, 241, 1)/*#FFFEE4*//*#94F5F5*/;
+  background-color: /*rgba(147, 208, 241, 1)*/#FFFEE4/*#94F5F5*/;
 }
 
 .root {

@@ -29,23 +29,25 @@ class HomePage extends Component{
               <div id="Intro-header-background">
                 <div id="Intro-header">
                   <div id="Intro-header-title">
-                    <span id="Intro-header-name">Martin Chak</span>
-                    <img src={hearts} id="heart-container"/>
+                    <span id="Intro-header-left">Martin Chak</span>
                     <span class="Intro-header-subtext-left">
                       Adventurer<br/>
                       Coffee Enthusiast<br/>
                       3rd Year UofT Computer Science Student<br/>
                       and Aspiring Software Developer
                     </span>
+                    {/*<img src={hearts} id="heart-container"/>
+                    <span id="Intro-header-right">Contacts</span>
                     <span class="Intro-header-subtext-right">
                       <a className="Link-text" href="mailto:martinchakchak@yahoo.ca">martinchakchak@yahoo.ca<IoMdMail/></a><br/>
                       <a className="Link-text" href="https://github.com/EstaticShark">Github<FaGithub/></a><br/>
                       <a className="Link-text" href="https://www.linkedin.com/in/martinchak">Linkedin<FaLinkedin/></a><br/>
                       <a className="Link-text" href="https://www.facebook.com/martin.chak.33">Facebook<FaFacebook/></a>
                     </span>
+                    */}
                   </div>
 
-                  <img src={island} id="Island-icon"/>
+                  {/*<img src={island} id="Island-icon"/>*/}
                 </div>
               </div>
 
