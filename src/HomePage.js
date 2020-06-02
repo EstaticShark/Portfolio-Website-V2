@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import introImage from '../src/assets/Intro-image-1.jpg'
 import hearts from '../src/assets/heart-container.png'
 import island from '../src/assets/island-color-temp.png'
-import { FaFlask } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaFacebook} from 'react-icons/fa';
 import { IconContext } from "react-icons";
-
+import { IoMdMail } from 'react-icons/io'
+import { FaFlask } from 'react-icons/fa'
 import './HomePage.css';
 
 import WordSlots from './WordSlots';
@@ -25,15 +26,25 @@ class HomePage extends Component{
   render() {
     return (
         <div id="Home-container" className="#home">
-              <div id="Intro-header">
-                <div id="Intro-header-title">
-                  <span id="Intro-header-name">Martin Chak</span>
-                  <img src={hearts} id="heart-container"/>
-                  <span class="Intro-header-subtext">
-                    3rd Year Computer Science Student<br/>
-                    University of Toronto, St. George Campus<br/>
-                    Toronto, ON
-                  </span>
+              <div id="Intro-header-background">
+                <div id="Intro-header">
+                  <div id="Intro-header-title">
+                    <span id="Intro-header-name">Martin Chak</span>
+                    <img src={hearts} id="heart-container"/>
+                    <span class="Intro-header-subtext-left">
+                      Adventurer<br/>
+                      Coffee Enthusiast<br/>
+                      3rd Year UofT Computer Science Student<br/>
+                      and Aspiring Software Developer
+                    </span>
+                    <span class="Intro-header-subtext-right">
+                      <a className="Link-text" href="mailto:martinchakchak@yahoo.ca">martinchakchak@yahoo.ca<IoMdMail/></a><br/>
+                      <a className="Link-text" href="https://github.com/EstaticShark">Github<FaGithub/></a><br/>
+                      <a className="Link-text" href="https://www.linkedin.com/in/martinchak">Linkedin<FaLinkedin/></a><br/>
+                      <a className="Link-text" href="https://www.facebook.com/martin.chak.33">Facebook<FaFacebook/></a>
+                    </span>
+                  </div>
+
                   <img src={island} id="Island-icon"/>
                 </div>
               </div>

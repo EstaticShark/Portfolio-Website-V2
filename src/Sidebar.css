@@ -32,8 +32,11 @@
   #Side-bar-content {
     margin: 5% 5% 5% 5%;
     border: none;
+    height: 90%;
     overflow-x: hidden;
     overflow-y: hidden;
+    justify-content: center;
+    align-items: center;
   }
  
   .Side-bar-cards-container {
@@ -66,15 +69,18 @@
   }
   
   .Side-bar-nav-link {
-    margin: -0.1em auto auto auto;
+    margin: 3px 0;
     min-width: 72px;
 
+    /*DECPRECATED*/
     /*Border*/
+    /*
     border-width: 1px;
     border-style: solid;
     border-image: linear-gradient(to right, black, rgba(0, 0, 0, 0.8), black) 1 10%;
     border-left: none;
     border-right: none;
+    */
   }
   
   
@@ -105,6 +111,18 @@
     font-weight: 700;
     text-align: center;
     color: #FFFEE4;
+  }
+
+  #Side-bar-footer {
+    position: absolute;
+    bottom: 10px;
+    font-size: 10pt;
+  }
+
+  .Side-bar-footer-text {
+    display: inline;
+    font-size: 8pt;
+    margin: 0;
   }
   
   /*Mobile version will be contained here*/

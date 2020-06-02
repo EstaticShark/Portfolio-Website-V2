@@ -45,7 +45,7 @@ class SideBar extends Component{
                   </h4>
                 </header>
 
-                <div className="d-flex flex-column align-items-center my-3 mx-4 Side-bar-cards-container">
+                <div id="Side-bar-links-container" className="d-flex flex-column align-items-center my-3 mx-4 Side-bar-cards-container">
                   
                   <div id="Side-bar-nav">
                       {/*
@@ -99,7 +99,7 @@ class SideBar extends Component{
                       </div>
                     
                   </div>
-
+                  {/*
                   <div id="Side-bar-contacts">
                     <div className="card-body Side-bar-card-line">
                       <a className="Side-bar-card-link" href="mailto:martinchakchak@yahoo.ca">
@@ -149,6 +149,13 @@ class SideBar extends Component{
                       </a>
                     </div>
                   </div>
+                  */}
+                </div>
+
+                <div id="Side-bar-footer" className="d-flex flex-column align-items-center mx-5">
+                  <p className="Side-bar-footer-text">Inspiration and icons from my favorite game company,</p>
+                  <a className="Side-bar-footer-text" href="https://www.nintendo.com/">@Nintendo</a>
+                  <p>Last Updated June 2nd, 2020</p>
                 </div>
               </div>
               }
