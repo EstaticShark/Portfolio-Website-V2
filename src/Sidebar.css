@@ -93,6 +93,11 @@
     /*Text*/
     font-size: 14pt;
   }
+
+  .Side-bar-nav-submit a{
+    text-decoration: none;
+    color: #FFFEE4;
+  }
   
   .Side-bar-card-line {
     display: block;

@@ -29,6 +29,7 @@ class HomePage extends Component{
               <div id="Intro-header-background">
                 <div id="Intro-header">
                   <div id="Intro-header-title">
+                    {/*
                     <span id="Intro-header-left">Martin Chak</span>
                     <span class="Intro-header-subtext-left">
                       Adventurer<br/>
@@ -36,7 +37,7 @@ class HomePage extends Component{
                       3rd Year UofT Computer Science Student<br/>
                       and Aspiring Software Developer
                     </span>
-                    {/*<img src={hearts} id="heart-container"/>
+                    <img src={hearts} id="heart-container"/>
                     <span id="Intro-header-right">Contacts</span>
                     <span class="Intro-header-subtext-right">
                       <a className="Link-text" href="mailto:martinchakchak@yahoo.ca">martinchakchak@yahoo.ca<IoMdMail/></a><br/>

@@ -70,7 +70,7 @@ class SideBar extends Component{
                           duration={500} 
                           className="Side-bar-nav-submit"
                         >
-                          Home  
+                          <a className="Side-bar-nav-text" href="">Home</a>
                         </ScrollLink>
                       </div>
                       
@@ -82,7 +82,7 @@ class SideBar extends Component{
                           duration={500} 
                           className="Side-bar-nav-submit"
                         >
-                          Projects  
+                          <a className="Side-bar-nav-text" href="">Projects</a>
                         </ScrollLink>
                       </div>
 
@@ -94,7 +94,7 @@ class SideBar extends Component{
                           duration={500} 
                           className="Side-bar-nav-submit"
                         >
-                          Metrics  
+                          <a className="Side-bar-nav-text" href="">Metrics</a>  
                         </ScrollLink>
                       </div>
                     
