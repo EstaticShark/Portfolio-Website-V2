@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-import introImage from '../src/assets/Intro-image-1.jpg'
-import hearts from '../src/assets/heart-container.png'
-import island from '../src/assets/island-color-temp.png'
-import { FaGithub, FaLinkedin, FaFacebook} from 'react-icons/fa';
+import introImage from '../src/assets/Intro-image-1.jpg';
 import { IconContext } from "react-icons";
-import { IoMdMail } from 'react-icons/io'
-import { FaFlask } from 'react-icons/fa'
+import { TiArrowSortedDown } from "react-icons/ti";
 import './HomePage.css';
 
 import WordSlots from './WordSlots';
@@ -53,24 +49,21 @@ class HomePage extends Component{
               </div>
 
               <div id="Intro-content">
-                <h2 id="Intro-content-title">About Me</h2>
+                <h2 id="Intro-content-title">Coffee Enthusiast and Software Developer</h2>
 
                 <p id="Intro-text">
                   I am currently a third year undergraduate student at the University of Toronto
-                  studying to graduate with a specialist in computer science and a major in mathematics. 
-                  My goal is to become a full-stack developer.
+                  studying to graduate with a specialist in computer science and a major in mathematics.
+                  I code at school and for fun, some of my projects can be viewed below.
                   <br/><br/>
-                  I enjoy coding and do a lot of it on the side. I have working knowledge with 
-                  both front and back end technologies. On the front-end, I have worked with ReactJS,
-                  Java Script and a couple CSS frameworks like SASS. I am more experienced with
-                  the back-end of things, working with API creation libraries such as Flask and
-                  express.js, databasing with Firebase and MongoDB, and utilizing cloud platforms
-                  such as AWS, Google Cloud Services, etc.
-                  <br/><br/>
-                  I am looking for 2020 summer internships at the moment, if you're interested you
-                  can look at my <a href="https://drive.google.com/open?id=1stbWlfTAVCdx1MCJwrVb7PcRH38nwYNw">resume.</a>
+                  I am not actively looking for internships at the moment, but I will be looking
+                  for a year long 2021 PEY co-op. If you're interested you can take a look at my
+                  <a href="https://drive.google.com/open?id=1stbWlfTAVCdx1MCJwrVb7PcRH38nwYNw"> resume.</a>
                 </p>
                 <img id="Intro-picture" src={introImage} alt="Cannot be loaded"/>
+                <IconContext.Provider value={{ size: "100px"}}>
+                  <TiArrowSortedDown id="Down-arrow"/>
+                </IconContext.Provider>
               </div>
           </div>
     );

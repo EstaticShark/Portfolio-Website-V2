@@ -175,5 +175,12 @@
 
     float: left;
 
+    font-size: 12pt;
+    font-weight: 500;
     color: black;
 }
+
+#Down-arrow {
+    position: relative;
+    top: 100px;
+} 
