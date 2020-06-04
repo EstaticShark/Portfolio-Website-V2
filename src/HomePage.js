@@ -49,7 +49,7 @@ class HomePage extends Component{
               </div>
 
               <div id="Intro-content">
-                <h2 id="Intro-content-title">Coffee Enthusiast and Software Developer</h2>
+                <h2 id="Intro-content-title">CS Student and Software Developer</h2>
 
                 <p id="Intro-text">
                   I am currently a third year undergraduate student at the University of Toronto

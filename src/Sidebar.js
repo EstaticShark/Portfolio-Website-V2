@@ -36,9 +36,11 @@ class SideBar extends Component{
             sidebar={
               <div id="Side-bar-content">
                 <header className="">
-                  <img  src={profileImage/*"https://avatarfiles.alphacoders.com/161/thumb-161188.png"*/} alt="Blue"
-                        id="Profile-picture"
-                        className="img-fluid rounded-circle"/>
+                  <a href="https://github.com/EstaticShark">
+                    <img  src={profileImage/*"https://avatarfiles.alphacoders.com/161/thumb-161188.png"*/} alt="Blue"
+                          id="Profile-picture"
+                          className="img-fluid rounded-circle"/>
+                  </a>
                   
                   <h4 className="my-3">
                     <b>Martin Chak</b>
