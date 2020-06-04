@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.9a239cc9.chunk.css",
-    "main.js": "/Portfolio-Website/static/js/main.8d9b4708.chunk.js",
-    "main.js.map": "/Portfolio-Website/static/js/main.8d9b4708.chunk.js.map",
+    "main.css": "/Portfolio-Website/static/css/main.553b37b5.chunk.css",
+    "main.js": "/Portfolio-Website/static/js/main.17ed9e86.chunk.js",
+    "main.js.map": "/Portfolio-Website/static/js/main.17ed9e86.chunk.js.map",
     "runtime-main.js": "/Portfolio-Website/static/js/runtime-main.5b35f413.js",
     "runtime-main.js.map": "/Portfolio-Website/static/js/runtime-main.5b35f413.js.map",
-    "static/js/2.47b83d26.chunk.js": "/Portfolio-Website/static/js/2.47b83d26.chunk.js",
-    "static/js/2.47b83d26.chunk.js.map": "/Portfolio-Website/static/js/2.47b83d26.chunk.js.map",
+    "static/js/2.004f172a.chunk.js": "/Portfolio-Website/static/js/2.004f172a.chunk.js",
+    "static/js/2.004f172a.chunk.js.map": "/Portfolio-Website/static/js/2.004f172a.chunk.js.map",
     "index.html": "/Portfolio-Website/index.html",
-    "precache-manifest.5b8c8cdf186141b854732e67492de7a3.js": "/Portfolio-Website/precache-manifest.5b8c8cdf186141b854732e67492de7a3.js",
+    "precache-manifest.ba107aa8621544b2ab37f263b537c34b.js": "/Portfolio-Website/precache-manifest.ba107aa8621544b2ab37f263b537c34b.js",
     "service-worker.js": "/Portfolio-Website/service-worker.js",
-    "static/css/main.9a239cc9.chunk.css.map": "/Portfolio-Website/static/css/main.9a239cc9.chunk.css.map",
-    "static/js/2.47b83d26.chunk.js.LICENSE": "/Portfolio-Website/static/js/2.47b83d26.chunk.js.LICENSE",
+    "static/css/main.553b37b5.chunk.css.map": "/Portfolio-Website/static/css/main.553b37b5.chunk.css.map",
+    "static/js/2.004f172a.chunk.js.LICENSE": "/Portfolio-Website/static/js/2.004f172a.chunk.js.LICENSE",
     "static/media/Intro-image-1.jpg": "/Portfolio-Website/static/media/Intro-image-1.73690283.jpg",
     "static/media/Stem-notes-1.PNG": "/Portfolio-Website/static/media/Stem-notes-1.510cdcbc.PNG",
     "static/media/Stem-notes-2.PNG": "/Portfolio-Website/static/media/Stem-notes-2.3b41773c.PNG",
@@ -19,15 +19,14 @@
     "static/media/android-game-2.PNG": "/Portfolio-Website/static/media/android-game-2.f20a242f.PNG",
     "static/media/android-game-3.PNG": "/Portfolio-Website/static/media/android-game-3.6b2b884a.PNG",
     "static/media/android-game-4.PNG": "/Portfolio-Website/static/media/android-game-4.f1ac211d.PNG",
-    "static/media/home-background.jpg": "/Portfolio-Website/static/media/home-background.e74ca7d3.jpg",
     "static/media/lol-info-1.PNG": "/Portfolio-Website/static/media/lol-info-1.32b1b8d0.PNG",
     "static/media/lol-info-2.PNG": "/Portfolio-Website/static/media/lol-info-2.715d2e42.PNG",
     "static/media/porfolio-site-1.PNG": "/Portfolio-Website/static/media/porfolio-site-1.97416e20.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.5b35f413.js",
-    "static/js/2.47b83d26.chunk.js",
-    "static/css/main.9a239cc9.chunk.css",
-    "static/js/main.8d9b4708.chunk.js"
+    "static/js/2.004f172a.chunk.js",
+    "static/css/main.553b37b5.chunk.css",
+    "static/js/main.17ed9e86.chunk.js"
   ]
 }

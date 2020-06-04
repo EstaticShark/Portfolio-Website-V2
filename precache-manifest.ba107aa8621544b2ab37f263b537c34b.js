@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a270ee2f50fe99c7bcdc4ab2da88b658",
+    "revision": "63da7577025470767f395a7896a1d8ba",
     "url": "/Portfolio-Website/index.html"
   },
   {
-    "revision": "a35808c2ee82f692fc97",
-    "url": "/Portfolio-Website/static/css/main.9a239cc9.chunk.css"
+    "revision": "b3a8ec0851c23517df6d",
+    "url": "/Portfolio-Website/static/css/main.553b37b5.chunk.css"
   },
   {
-    "revision": "afbffe8df0cef96e1ce2",
-    "url": "/Portfolio-Website/static/js/2.47b83d26.chunk.js"
+    "revision": "595a143447e3e6950cce",
+    "url": "/Portfolio-Website/static/js/2.004f172a.chunk.js"
   },
   {
     "revision": "85b12af60ddf57ea6860c3b16407fd52",
-    "url": "/Portfolio-Website/static/js/2.47b83d26.chunk.js.LICENSE"
+    "url": "/Portfolio-Website/static/js/2.004f172a.chunk.js.LICENSE"
   },
   {
-    "revision": "a35808c2ee82f692fc97",
-    "url": "/Portfolio-Website/static/js/main.8d9b4708.chunk.js"
+    "revision": "b3a8ec0851c23517df6d",
+    "url": "/Portfolio-Website/static/js/main.17ed9e86.chunk.js"
   },
   {
     "revision": "dd247c39e00a322b6193",
@@ -50,10 +50,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f1ac211d2df72c03ecf586e5255e9831",
     "url": "/Portfolio-Website/static/media/android-game-4.f1ac211d.PNG"
-  },
-  {
-    "revision": "e74ca7d31982eb9afca585fc023d94df",
-    "url": "/Portfolio-Website/static/media/home-background.e74ca7d3.jpg"
   },
   {
     "revision": "32b1b8d00b08c5db282b4521c8c4e0ff",
